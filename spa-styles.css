@@ -65,10 +65,6 @@ body div {
     color: #F9FAF8;
 }
 
-.cta {
-    display: flex;
-}
-
 .signup-button {
     padding: 5px 30px;
     border: 3px solid #F9FAF8;
@@ -77,9 +73,13 @@ body div {
 }
 
 .quote-block {
+    padding: 150px 0;
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
+}
+
+.quote {
     font-weight: 100;
     font-style: italic;
 }
@@ -89,8 +89,24 @@ body div {
     font-style: normal;
 }
 
+.cta {
+    display: flex;
+    margin: 30px 100px;
+    border-radius: 12px;
+}
+
+.cta-left {
+    width: 500px;
+    flex: auto;
+}
+
+.cta-right {
+    width: 100px;
+    flex: auto;
+}
+
 .footer {
     text-align: center;
     color: #F9FAF8;
-    padding: 10px 0;
+    padding: 30px 0;
 }
