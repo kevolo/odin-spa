@@ -16,11 +16,15 @@ body {
 .navbar {
     padding: 10px 0;
     color: #F9FAF8;
-    text-decoration: none;
 }
 
-.navbar a {
+.nav-links {
     text-align: right;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .hero {
@@ -29,11 +33,13 @@ body {
     align-items: center;
     justify-content: center;
     gap: 25px;
+    padding: 20px 50px;
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: 900;
+    padding-bottom: 0px;
 }
 
 .hero-secondary {
