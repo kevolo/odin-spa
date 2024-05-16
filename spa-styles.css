@@ -9,10 +9,6 @@ body {
     margin: 0 auto;
 }
 
-body div {
-    padding: 0 100px;
-}
-
 .navbar, .footer, .hero {
     background-color: #1F2937;
 }
@@ -22,14 +18,17 @@ body div {
     color: #F9FAF8;
 }
 
-.hero-main {
-    font-size: 48px;
-    font-weight: 900;
+.hero {
     color: #F9FAF8;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .hero-secondary {
@@ -41,6 +40,7 @@ body div {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
 }
 
 .tiles {
@@ -73,7 +73,7 @@ body div {
 }
 
 .quote-block {
-    padding: 150px 0;
+    padding: 60px 60px;
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
@@ -87,6 +87,7 @@ body div {
 .author {
     font-weight: 600;
     font-style: normal;
+    text-align: right;
 }
 
 .cta {
@@ -97,11 +98,13 @@ body div {
 
 .cta-left {
     width: 500px;
+    padding: 10px 30px;
     flex: auto;
 }
 
 .cta-right {
     width: 100px;
+    padding: 45px 10px;
     flex: auto;
 }
 
