@@ -20,6 +20,7 @@ body {
 
 .nav-links {
     text-align: right;
+    margin-right: 20px;
 }
 
 .nav-links a {
@@ -40,11 +41,17 @@ body {
     font-size: 48px;
     font-weight: 900;
     padding-bottom: 0px;
+    margin: 0;
 }
 
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0 0 25px 0;
+}
+
+.info {
+    min-height: 450px;
 }
 
 .info-header {
@@ -99,6 +106,7 @@ body {
     font-weight: 600;
     font-style: normal;
     text-align: right;
+    margin: 0;
 }
 
 .cta {
