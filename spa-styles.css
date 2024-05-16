@@ -13,6 +13,10 @@ body {
     background-color: #1F2937;
 }
 
+.navbar {
+    color: #F9FAF8;
+}
+
 .hero-main {
     font-size: 48px;
     font-weight: 900;
@@ -30,9 +34,28 @@ body {
     color: #1F2937;
 }
 
+.tiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+}
+
+.tile {
+    border: 2px solid lightgray;
+    height: 150px;
+}
+
 .cta, .signup-button {
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
+}
+
+.signup-button {
+    padding: 15px 20px;
+    border: 3px solid #F9FAF8;
+    border-radius: 3px;
 }
 
 .quote-block {
