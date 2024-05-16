@@ -7,14 +7,22 @@
 .footer, .hero {
     background-color: #1F2937;
 }
+
 .hero-main {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
 }
+
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .cta, .signup-button {
@@ -24,6 +32,8 @@
 .quote-block {
     background-color: #E5E7EB;
     color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .roboto-thin {
